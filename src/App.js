@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const {list, setList} = useState([]);
-  const {input, setInput} = useState("");
+  const [list, setList] = useState([]);
+  const [input, setInput] = useState("");
 
   const addTodo = (todo) => {
     const newTodo = {
