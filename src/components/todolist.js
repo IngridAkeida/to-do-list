@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './todolist.css';
 
 function TodoList() {
 
@@ -36,9 +37,8 @@ function TodoList() {
 
     setList(newList);
   }
-  // add localStorage 
-  
 
+  // add localStorage 
   useEffect(() => {
     localStorage.setItem('lists', JSON.stringify(list));
   }, [list]);
