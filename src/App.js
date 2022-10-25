@@ -1,9 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function App() {
 
-  const [list, setList] = useState([]);
+  const getLocal = () => {
+    let list = localStorage.getItem('lists');
+    console.log(list);
+
+    if (list){
+      return JSON.parse(localStorage.getItem('lists'));
+    } else {
+      return [];
+    }
+  }
+  
   const [input, setInput] = useState("");
+  const [list, setList] = useState(getLocal());
+
+  
 
   const addTodo = (todo) => {
     const newTodo = {
@@ -23,6 +36,12 @@ function App() {
 
     setList(newList);
   }
+  // add localStorage 
+  
+
+  useEffect(() => {
+    localStorage.setItem('lists', JSON.stringify(list));
+  }, [list]);
 
   return (
     <div>
