@@ -1,13 +1,13 @@
-import './App.css';
+import StyledApp from './styledApp.js';
 import TodoList from './components/todolist'
 
 function App() {
 
   return(
    
-    <div className="App">
+    <StyledApp>
       <TodoList/>
-    </div>
+    </StyledApp>
 
   );
 }
