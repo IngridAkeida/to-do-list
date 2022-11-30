@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './todolist.css';
+import StyledTodoList from './styledtodolist.js';
 
 function TodoList() {
 
@@ -54,14 +54,14 @@ function TodoList() {
         }
       /> 
       <button onClick={() => addTodo(input)}>Add</button>
-      <ul>
+      <StyledTodoList>
         {list.map((todo) => (
           <li key={todo.id}>
             {todo.todo}
             <button onClick={() => deleteTodo(todo.id)}>&times;</button>
           </li>
         ))}
-      </ul>
+      </StyledTodoList>
     </div>
   )
 }
