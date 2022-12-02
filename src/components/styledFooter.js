@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
   background: #58181f;
   height: auto;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 20px;
   color: #fad0c4;
 `
 
