@@ -1,6 +1,7 @@
 import { 
   StyledFooter,
   StyledAboutProject,
+  StyledAbout,
   StyledLink,
   StyledItensList,
   StyledItensLink
@@ -18,7 +19,7 @@ function Footer() {
     <StyledFooter>
       <div>
         <StyledAboutProject>Study project to learn some features of LocalStorage and work on some more tools, Then you can use todolist to close the page and the data it will be there If you reload or close the page.</StyledAboutProject>
-        <h2>About me:</h2>
+        <StyledAbout>About me:</StyledAbout>
         <StyledLink>
           <StyledItensList>
             <StyledItensLink href="https://www.linkedin.com/in/ingrid-sanches/" target="_blank" rel="noreferrer"><FaLinkedin/></StyledItensLink>
@@ -29,7 +30,7 @@ function Footer() {
         </StyledLink>
       </div>
       <div>
-        <p> ckckjckjckkc <StyledItensLink href="https://github.com/IngridAkeida/to-do-list" target="_blank" rel="noreferrer">here</StyledItensLink>
+        <p>ckckjckjckkc <a href="https://github.com/IngridAkeida/to-do-list" target="_blank" rel="noreferrer">here</a>
         </p>
       </div>
    

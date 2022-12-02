@@ -15,16 +15,21 @@ export const StyledAboutProject = styled.p`
   margin: auto;
   width: 50%;
 `
+export const StyledAbout = styled.h2`
+  margin: auto;
+  padding: 10px 0;
+`
 export const StyledLink = styled.ul`
   list-style-type: none;
   display: flex;
   justify-content: center;
   padding: 0;
+  margin: 0;
 `
 export const StyledItensList = styled.li`
   margin: 0 20px;
 `
 export const StyledItensLink = styled.a`
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
 `
