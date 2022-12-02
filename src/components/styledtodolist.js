@@ -26,12 +26,11 @@ export const StyledTodoText = styled.p`
 `;
 
 export const StyledTodoButton = styled.button`
-  padding: 0 10px;
+  padding: 0;
   margin: 16px 0;
   width: 20px;
   height: 20px;
   right: 10px;
-  border: 1px red solid;
   position: absolute;
 `;
 
