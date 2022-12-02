@@ -58,6 +58,7 @@ function TodoList() {
         }
       /> 
       <button onClick={() => addTodo(input)}>Add</button>
+      
       <StyledTodoList>
         {list.map((todo) => (
           <StyledTodoItem key={todo.id}>
