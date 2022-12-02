@@ -1,5 +1,6 @@
 import StyledApp from './styledApp.js';
-import TodoList from './components/todolist'
+import TodoList from './components/todolist';
+import Footer from './components/footer.js';
 
 function App() {
 
