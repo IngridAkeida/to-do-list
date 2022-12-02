@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import {StyledTodoList, 
+import {
+        StyledInput,
+        StyledAdd,
+        StyledTodoList, 
         StyledTodoItem, 
         StyledTodoText, 
         StyledTodoButton
@@ -50,15 +53,16 @@ function TodoList() {
   return (
     <div>
       <h1>Todo List</h1>
-      <input 
+      <StyledInput
         type="text" 
+        placeholder='Start your list here'
         value={input} 
         onChange={
         (e) => setInput(e.target.value)
         }
       /> 
-      <button onClick={() => addTodo(input)}>Add</button>
-      
+      <StyledAdd onClick={() => addTodo(input)}>Add</StyledAdd>
+
       <StyledTodoList>
         {list.map((todo) => (
           <StyledTodoItem key={todo.id}>
