@@ -22,7 +22,6 @@ export const StyledAdd = styled.button`
   border-radius : 0 5px 5px 0;
 `
 export const StyledTodoList = styled.ul`
-  
   list-style-type: decimal;
   color: #58181f;
   font-weight: 700;

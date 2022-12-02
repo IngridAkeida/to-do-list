@@ -5,9 +5,10 @@ export const StyledFooter = styled.footer`
   bottom: 0;
   left: 0;
   right: 0;
-  background: #111;
+  background: #58181f;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
-  color: #fff;
+  color: #fad0c4;
 `
+
