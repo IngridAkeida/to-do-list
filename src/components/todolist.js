@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import {
-        StyledTitle,
-        StyledInput,
-        StyledAdd,
-        StyledTodoList, 
-        StyledTodoItem, 
-        StyledTodoText, 
-        StyledTodoButton
+  StyledTitle,
+  StyledInput,
+  StyledAdd,
+  StyledTodoList, 
+  StyledTodoItem, 
+  StyledTodoText, 
+  StyledTodoButton
 } from './styledTodoList.js';
+import { FaTrashAlt } from 'react-icons/fa';
 
 function TodoList() {
 
@@ -69,7 +70,7 @@ function TodoList() {
           <StyledTodoItem key={todo.id}>
           
             <StyledTodoText>{todo.todo}</StyledTodoText>
-            <StyledTodoButton onClick={() => deleteTodo(todo.id)}>&times;</StyledTodoButton>
+            <StyledTodoButton onClick={() => deleteTodo(todo.id)}><FaTrashAlt/></StyledTodoButton>
           
           </StyledTodoItem>
         ))}

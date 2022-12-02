@@ -9,10 +9,7 @@ import {
 function Footer() {
   return (
     <StyledFooter>
-      <ul>
-        <li>Study project to learn some features of LocalStorage and work on some more tools, Then you can use todolist to close the page and the data it will be there If you reload or close the page <FaRegGrinBeam/> </li>
-        <li></li>
-      </ul>
+      <p>sjshjhsj</p>
       <h2>About me:</h2>
       <ul>
         <li>

@@ -14,12 +14,21 @@ export const StyledInput = styled.input`
   border-radius : 5px 0 0 5px;
 `
 export const StyledAdd = styled.button`
-  background-color: #b12a5b;
+  background-color: #58181f;
   font-weight: bold;
   color: #fff;
   border: none;
   height: 32px;
   border-radius : 0 5px 5px 0;
+
+  &:hover {
+    color: #58181f;
+    background-color: #fff;
+  }
+  &:active{
+    color: #fff;
+    background-color: #fff;
+  }
 `
 export const StyledTodoList = styled.ul`
   list-style-type: decimal;
@@ -49,12 +58,23 @@ export const StyledTodoText = styled.p`
 export const StyledTodoButton = styled.button`
   padding: 0;
   margin: 16px 0;
-  width: 20px;
-  height: 20px;
+  width: 45px;
+  height: 25px;
   right: 50px;
   position: absolute;
-  background-color: #b12a5b;
   border: none;
+  border-radius: 5px;
   color: #fff;
+  background-color: #58181f;
+  cursor: pointer;
+
+  &:hover {
+    color: #58181f;
+    background-color: #fff;
+  }
+  &:active{
+    color: #fff;
+    background-color: #fff;
+  }
 `;
 
