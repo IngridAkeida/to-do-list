@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
+export const StyledTitle = styled.h1`
+  font-family: sans-serif;
+  color: #58181f;
+`
+
 export const StyledInput = styled.input`
   background-color: #fad0c4;
+  text-indent: 10px;
   border: none;
   height: 30px;
   width: 50%;
@@ -18,8 +24,8 @@ export const StyledAdd = styled.button`
 export const StyledTodoList = styled.ul`
   
   list-style-type: decimal;
-  color: #b12a5b;
-  font-style: italic;
+  color: #58181f;
+  font-weight: 700;
   background-color: #ff8177;
   margin: 0;
   overflow: hidden;
@@ -46,7 +52,7 @@ export const StyledTodoButton = styled.button`
   margin: 16px 0;
   width: 20px;
   height: 20px;
-  right: 10px;
+  right: 50px;
   position: absolute;
   background-color: #b12a5b;
   border: none;

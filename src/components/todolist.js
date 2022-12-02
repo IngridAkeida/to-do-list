@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
+        StyledTitle,
         StyledInput,
         StyledAdd,
         StyledTodoList, 
@@ -52,7 +53,7 @@ function TodoList() {
 
   return (
     <div>
-      <h1>Todo List</h1>
+      <StyledTitle>Your List</StyledTitle>
       <StyledInput
         type="text" 
         placeholder='Start your list here'

@@ -7,6 +7,7 @@ function App() {
    
     <StyledApp>
       <TodoList/>
+      <Footer/>
     </StyledApp>
 
   );
