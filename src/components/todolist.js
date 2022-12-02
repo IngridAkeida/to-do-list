@@ -8,7 +8,9 @@ import {
   StyledTodoText, 
   StyledTodoButton
 } from './styledTodoList.js';
-import { FaTrashAlt } from 'react-icons/fa';
+import { 
+  FaTrashAlt
+} from 'react-icons/fa';
 
 function TodoList() {
 
@@ -54,7 +56,7 @@ function TodoList() {
 
   return (
     <div>
-      <StyledTitle>Your List</StyledTitle>
+      <StyledTitle> Your List </StyledTitle>
       <StyledInput
         type="text" 
         placeholder='Start your list here'
