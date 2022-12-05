@@ -12,6 +12,9 @@ export const StyledInput = styled.input`
   height: 30px;
   width: 50%;
   border-radius : 5px 0 0 5px;
+  @media (max-width: 600px) {
+      width: 70%;
+    }
 `
 export const StyledAdd = styled.button`
   background-color: #58181f;

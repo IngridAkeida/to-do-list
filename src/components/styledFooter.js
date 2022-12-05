@@ -14,6 +14,11 @@ export const StyledFooter = styled.footer`
 export const StyledAboutProject = styled.p`
   margin: auto;
   width: 70%;
+  padding: 0;
+
+  @media (max-width: 600px) {
+      width: 90%;
+    }
 `
 export const StyledAbout = styled.h2`
   margin: auto;

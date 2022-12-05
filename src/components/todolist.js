@@ -60,6 +60,7 @@ function TodoList() {
       <StyledInput
         type="text" 
         placeholder='Start your list here'
+        maxlength="10"
         value={input} 
         onChange={
         (e) => setInput(e.target.value)
