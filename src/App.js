@@ -5,7 +5,6 @@ import Footer from './components/footer.js';
 function App() {
 
   return(
-   
     <StyledApp>
       <TodoList/>
       <Footer/>
