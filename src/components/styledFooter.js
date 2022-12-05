@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
   background: #58181f;
   height: auto;
   width: 100%;
-  padding-top: 20px;
+  padding: 10px 0;
   color: #fad0c4;
 `
 export const StyledAboutProject = styled.p`
@@ -17,7 +17,7 @@ export const StyledAboutProject = styled.p`
 `
 export const StyledAbout = styled.h2`
   margin: auto;
-  padding: 10px 0;
+  padding: 5px 0;
   font-size: large;
 `
 export const StyledLink = styled.ul`
@@ -33,6 +33,14 @@ export const StyledItensList = styled.li`
 export const StyledItensLink = styled.a`
   color: #fff;
   font-size: 30px;
+  &:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 31px;
+  }
+  &:active{
+    color: #fad0c4;  
+  }
 `
 export const StyledItensCopy = styled.p`
   margin: 0;
@@ -43,4 +51,12 @@ export const StyledItensCopy = styled.p`
 export const StyledItensC = styled.a`
   text-decoration: none;
   color: inherit;
+
+  &:hover {
+    color: #fff;
+    font-weight: bold;
+  }
+  &:active{
+    color: #fad0c4;  
+  }
 `
