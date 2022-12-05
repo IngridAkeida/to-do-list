@@ -4,13 +4,14 @@ import {
   StyledAbout,
   StyledLink,
   StyledItensList,
-  StyledItensLink
+  StyledItensLink,
+  StyledItensCopy,
+  StyledItensC
   
 } from "./styledFooter";
 import {
-  FaRegGrinBeam,
   FaLinkedin,
-  FaGithub,
+  FaGithub
 } from 'react-icons/fa';
 
 
@@ -30,8 +31,10 @@ function Footer() {
         </StyledLink>
       </div>
       <div>
-        <p>ckckjckjckkc <a href="https://github.com/IngridAkeida/to-do-list" target="_blank" rel="noreferrer">here</a>
-        </p>
+        <StyledItensCopy>Copyright &copy; 2022 <StyledItensC href="https://github.com/IngridAkeida/to-do-list" target="_blank" rel="noreferrer">IngridAkeida</StyledItensC>. 
+        <br/>
+        All Rights Reserved
+        </StyledItensCopy>
       </div>
    
     </StyledFooter>
