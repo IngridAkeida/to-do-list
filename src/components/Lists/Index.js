@@ -7,7 +7,7 @@ import {
   StyledTodoItem, 
   StyledTodoText, 
   StyledTodoButton
-} from './styledTodoList.js';
+} from './StyledTodoList.js';
 import { 
   FaTrashAlt
 } from 'react-icons/fa';
