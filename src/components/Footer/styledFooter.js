@@ -14,7 +14,7 @@ export const StyledAboutProject = styled.p`
   padding: 0;
 
   @media (max-width: 600px) {
-      width: 90%;
+      width: 70%;
     }
 `
 export const StyledAbout = styled.h2`

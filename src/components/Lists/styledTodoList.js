@@ -13,11 +13,11 @@ export const StyledInput = styled.input`
   text-indent: 10px;
   border: none;
   height: 30px;
-  width: 60%;
+  width: 50%;
   border-radius : 5px 0 0 5px;
 
   @media (max-width: 600px) {
-    width: 70%;
+    width: 55%;
   }
 `
 export const StyledAdd = styled.button`
@@ -26,6 +26,7 @@ export const StyledAdd = styled.button`
   color: #fff;
   border: none;
   height: 32px;
+  width: 10%;
   border-radius : 0 5px 5px 0;
 
   &:hover {
@@ -35,6 +36,9 @@ export const StyledAdd = styled.button`
   &:active{
     color: #fff;
     background-color: #fff;
+  }
+  @media (max-width: 600px) {
+    width: 15%;
   }
 `
 export const StyledTodoList = styled.ul`
@@ -73,27 +77,24 @@ export const StyledTodoText = styled.p`
 `;
 
 export const StyledTodoDivButton = styled.div`
-  width: 20%;           
+  width: 15%; 
 `;
 
 export const StyledTodoButton = styled.button`
-  padding: 0;
-  width: 45px;
+  width: 50%;
   height: 25px;
   right: 50px;
   border: none;
   border-radius: 5px;
-  color: #fff;
-  background-color: #58181f;
+  color: #58181f;
   cursor: pointer;
+  background-color: #ffffff00;
 
   &:hover {
-    color: #58181f;
-    background-color: #fff;
+    color: #58181f;    
   }
   &:active{
     color: #fff;
-    background-color: #fff;
   }
 `;
 
