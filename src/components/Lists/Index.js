@@ -7,8 +7,7 @@ import {
   StyledTodoItem, 
   StyledTodoText, 
   StyledTodoDivButton,
-  StyledTodoButton,
-  StyledOption
+  StyledTodoButton
 } from './styledTodoList.js';
 import { 
   FaTrashAlt
@@ -57,7 +56,7 @@ function TodoList() {
   }, [list]);
 
   return (
-    <div>
+    <div style={{height: '80%', width: '100%'}}>
       <StyledTitle> Your List </StyledTitle>
       <StyledInput
         type="text" 
@@ -83,7 +82,6 @@ function TodoList() {
           </StyledTodoItem>
         ))}
       </StyledTodoList>
-      <StyledOption/>
     </div>
   )
 }

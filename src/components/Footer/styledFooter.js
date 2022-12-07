@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
   bottom: 0;
   background: #58181f;
-  height: auto;
+  height: 20%;
   width: 100%;
-  position: fixed;
   padding: 10px 0;
   color: #fad0c4;
 `
