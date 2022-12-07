@@ -95,3 +95,7 @@ export const StyledTodoButton = styled.button`
   }
 `;
 
+export const StyledOption = styled.div`
+  padding-bottom: 2.5rem; 
+`;
+

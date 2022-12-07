@@ -2,18 +2,16 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   bottom: 0;
-  left: 0;
-  right: 0;
   background: #58181f;
   height: auto;
   width: 100%;
-  margin-top: 20px;
+  position: fixed;
   padding: 10px 0;
   color: #fad0c4;
 `
 export const StyledAboutProject = styled.p`
   margin: auto;
-  width: 70%;
+  width: 60%;
   padding: 0;
 
   @media (max-width: 600px) {

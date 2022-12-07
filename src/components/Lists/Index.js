@@ -7,7 +7,8 @@ import {
   StyledTodoItem, 
   StyledTodoText, 
   StyledTodoDivButton,
-  StyledTodoButton
+  StyledTodoButton,
+  StyledOption
 } from './styledTodoList.js';
 import { 
   FaTrashAlt
@@ -82,6 +83,7 @@ function TodoList() {
           </StyledTodoItem>
         ))}
       </StyledTodoList>
+      <StyledOption/>
     </div>
   )
 }
