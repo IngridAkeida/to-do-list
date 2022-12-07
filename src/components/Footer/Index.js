@@ -8,7 +8,7 @@ import {
   StyledItensCopy,
   StyledItensC
   
-} from "./StyledFooter";
+} from "./styledFooter";
 import {
   FaLinkedin,
   FaGithub
