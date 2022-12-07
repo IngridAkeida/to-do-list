@@ -1,4 +1,4 @@
-import StyledApp from './StyledApp.js';
+import StyledApp from './styledApp.js';
 import TodoList from './components/Lists/Index';
 import Footer from './components/Footer/Index.js';
 
