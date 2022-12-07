@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-  <h1 text-align="center">TodoList</h1>
+  <h1 text-align="center">Your List</h1>
 </div>
 
 ## About The Project 
@@ -16,11 +16,11 @@ the data it will be there If you reload or close the page ☺
 
 
 
-<!--
+
 <div align="center">
-<img src="https://media-exp1.licdn.com/dms/image/C4D22AQGxD-wsUiHuIA/feedshare-shrink_1280/0/1668674513177?e=1671667200&v=beta&t=NQVZY6mrlfdfV9W2xikJn1yg_jMYp83Kw_Q7pmtbYvs" alt="print" width="500" height="500"/>
+<img src="https://github.com/IngridAkeida/to-do-list/blob/master/Captura%20de%20tela_20221207_204022.png" alt="print" height="500"/>
 </div>
--->
+
 
 ## Built With
 
