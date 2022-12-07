@@ -56,7 +56,7 @@ function TodoList() {
   }, [list]);
 
   return (
-    <div style={{height: '80%', width: '100%'}}>
+    <div style={{height: '80vh', width: '100%'}}>
       <StyledTitle> Your List </StyledTitle>
       <StyledInput
         type="text" 

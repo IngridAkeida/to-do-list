@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const StyledTitle = styled.h1`
   font-family: sans-serif;
   color: #58181f;
+  margin: 0;
+  padding: 20px;
   text-shadow: 1px 1px 0px #ff0000;
 `
 
