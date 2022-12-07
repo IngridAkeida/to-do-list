@@ -73,7 +73,12 @@ function TodoList() {
           <StyledTodoItem key={todo.id}>
           
             <StyledTodoText>{todo.todo}</StyledTodoText>
-            <StyledTodoButton onClick={() => deleteTodo(todo.id)}><FaTrashAlt/></StyledTodoButton>
+            <div style={{
+              width: '30%'
+            }}>
+              <StyledTodoButton onClick={() => deleteTodo(todo.id)}><FaTrashAlt/></StyledTodoButton>
+            </div>
+            
           
           </StyledTodoItem>
         ))}

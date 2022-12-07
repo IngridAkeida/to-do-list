@@ -36,7 +36,7 @@ export const StyledAdd = styled.button`
   }
 `
 export const StyledTodoList = styled.ul`
-  list-style-type: decimal;
+  padding: 0;
   color: #58181f;
   font-weight: 700;
   background-color: #ff8177;
@@ -46,13 +46,14 @@ export const StyledTodoList = styled.ul`
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
-  
+
   @media (max-width: 600px) {
     width: 70%;
   }
 `;
 
 export const StyledTodoItem = styled.li`
+  margin-left: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,9 +61,13 @@ export const StyledTodoItem = styled.li`
 `;
 
 export const StyledTodoText = styled.p`
- @media (max-width: 600px) {
+  width: 75%;
+  word-wrap: break-word;
+  text-align: left;
+
+  @media (max-width: 600px) {
     font-size: 20px;
-    }
+  }
 `;
 
 export const StyledTodoButton = styled.button`
@@ -70,7 +75,6 @@ export const StyledTodoButton = styled.button`
   width: 45px;
   height: 25px;
   right: 50px;
-  position: absolute;
   border: none;
   border-radius: 5px;
   color: #fff;
