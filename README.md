@@ -18,7 +18,7 @@ the data it will be there If you reload or close the page ☺
 
 
 <div align="center">
-<img src="https://github.com/IngridAkeida/to-do-list/blob/master/Captura%20de%20tela_20221207_204841.png" alt="print" height="500"/>
+<img src="https://raw.githubusercontent.com/IngridAkeida/to-do-list/master/Captura%20de%20tela_20221207_205226.png" alt="print" height="500"/>
 </div>
 
 
