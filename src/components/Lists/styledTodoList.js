@@ -61,7 +61,7 @@ export const StyledTodoItem = styled.li`
 `;
 
 export const StyledTodoText = styled.p`
-  width: 70%;
+  width: 80%;
   word-wrap: break-word;
   text-align: left;
 
@@ -71,10 +71,8 @@ export const StyledTodoText = styled.p`
 `;
 
 export const StyledTodoDivButton = styled.div`
-  width: 30%;           
+  width: 20%;           
 `;
-
-
 
 export const StyledTodoButton = styled.button`
   padding: 0;
