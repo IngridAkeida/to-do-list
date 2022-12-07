@@ -6,6 +6,7 @@ import {
   StyledTodoList, 
   StyledTodoItem, 
   StyledTodoText, 
+  StyledTodoDivButton,
   StyledTodoButton
 } from './styledTodoList.js';
 import { 
@@ -73,11 +74,9 @@ function TodoList() {
           <StyledTodoItem key={todo.id}>
           
             <StyledTodoText>{todo.todo}</StyledTodoText>
-            <div style={{
-              width: '30%'
-            }}>
+            <StyledTodoDivButton>
               <StyledTodoButton onClick={() => deleteTodo(todo.id)}><FaTrashAlt/></StyledTodoButton>
-            </div>
+            </StyledTodoDivButton>
             
           
           </StyledTodoItem>

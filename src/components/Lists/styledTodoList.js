@@ -61,7 +61,7 @@ export const StyledTodoItem = styled.li`
 `;
 
 export const StyledTodoText = styled.p`
-  width: 75%;
+  width: 70%;
   word-wrap: break-word;
   text-align: left;
 
@@ -69,6 +69,12 @@ export const StyledTodoText = styled.p`
     font-size: 20px;
   }
 `;
+
+export const StyledTodoDivButton = styled.div`
+  width: 30%;           
+`;
+
+
 
 export const StyledTodoButton = styled.button`
   padding: 0;
