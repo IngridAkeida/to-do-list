@@ -13,6 +13,10 @@ export const StyledInput = styled.input`
   height: 30px;
   width: 60%;
   border-radius : 5px 0 0 5px;
+
+  @media (max-width: 600px) {
+    width: 70%;
+  }
 `
 export const StyledAdd = styled.button`
   background-color: #58181f;
@@ -42,6 +46,10 @@ export const StyledTodoList = styled.ul`
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
+  
+  @media (max-width: 600px) {
+    width: 70%;
+  }
 `;
 
 export const StyledTodoItem = styled.li`
@@ -52,7 +60,9 @@ export const StyledTodoItem = styled.li`
 `;
 
 export const StyledTodoText = styled.p`
- 
+ @media (max-width: 600px) {
+    font-size: 20px;
+    }
 `;
 
 export const StyledTodoButton = styled.button`
