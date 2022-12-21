@@ -12,7 +12,7 @@ the data it will be there If you reload or close the page ☺
 </i>
 
 
-## Access the project [here](https://yourlistnow.netlify.app/)
+## Access the project [here](https://yourlistnow.netlify.app/) <a href="https://yourlistnow.netlify.app/" target="_blank">Here</a>
 
 
 
