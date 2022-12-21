@@ -85,7 +85,7 @@ git clone git@github.com:IngridAkeida/to-do-list.git
 2. Install NPM packages
 
 ```sh
-npm install next react react-dom
+npm install react react-dom styled-components
 ```
 
 ### Creating A Pull Request
