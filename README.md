@@ -12,8 +12,7 @@ the data it will be there If you reload or close the page ☺
 </i>
 
 
-## Access the project [here](https://yourlistnow.netlify.app/){:target="_blank"}
-
+## Access the project [here](https://yourlistnow.netlify.app/)
 
 
 
@@ -35,9 +34,15 @@ the data it will be there If you reload or close the page ☺
     <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40" /> 
   </a>
  --> 
+  
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/> 
   </a> 
+  
+  <a href="https://styled-components.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" alt="styled-components" width="50" height="50"/> 
+  </a>
+  
 <!--
   <a href="https://supabase.com/" target="_blank" rel="noreferrer"> 
     <img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/299/square_480/supabase-logo-icon_1.png" alt="supabase" width="50" height="50"/> 
@@ -51,9 +56,7 @@ the data it will be there If you reload or close the page ☺
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="50" height="50"/> 
   </a> 
 
-<a href="https://styled-components.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" alt="styled-components" width="50" height="50"/> 
-  </a>
+
  
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
     <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="50" height="50"/> 
